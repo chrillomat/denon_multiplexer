@@ -10,9 +10,9 @@ class TelnetMultiplexer(Daemon):
     #-----------------------------------------------------------#
     # Read in command line arguments
     def run(self):
-        remote_ip        = "192.168.1.xxx"
+        remote_ip        = "192.168.192.128"
         remote_port      = 23
-        local_port       = 23
+        local_port       = 8823
         local_debug_port = 1357
         my_client = MyProxyClientFactory()
         my_server = MyProxyServerFactory()
